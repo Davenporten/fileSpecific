@@ -21,3 +21,5 @@ Areas I need/want help (any other suggestions are welcome):
   - Does my logic work? Does the percentage mean what I think it means? Need some others to test it.
   
   - I had problems getting the total number of lines for each file, probably because I don't understand cat, while I was building this and I remedied it by just adding one to the total number of lines for each file. Is there some way to take care of this problem?
+
+Note: The commented out code at the bottom is for general file comparison.
