@@ -27,7 +27,7 @@ do
    done;
 done
 
-
+echo "Checking h files"
 for i in $1/*.h;
 do
    for j in $2/*.h;
