@@ -6,7 +6,7 @@ This little shell is pretty unrefined, this is my first time coding in bash, but
 It's use is limited, but what it essentially does it iterate through all the cpp and h files in two directories (it could be adjusted to do any sort of file; perhaps add an option?) and returns what percent of the second file is the same as the first. The percentage is really an approximation, but as far as I've tested it's pretty good.
 
 Here's essentially how it works (if my logic's off please let me know):
-  1) Find two files in each folders that have the same name
+1) Find two files in each folders that have the same name
   2) Use sdiff to find any unique lines of code between the two
   3) Add the number of lines from each file
   4) Subtract the number of unique lines from the total number of lines
